@@ -12,7 +12,7 @@ var cron = require('node-cron');
 var curHour = moment().format('HH');
 var numHour = Number(curHour);
 console.debug( curHour + "시 입니다 ");
-if (parseInt(7) <= parseInt(numHour)) {
+if (parseInt(0) <= parseInt(numHour)) {
     sp.write('t');
     console.debug( curHour + "화장실 불을 켭니다 ");
 } if (parseInt(14) <= parseInt(numHour)) {
