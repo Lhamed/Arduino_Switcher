@@ -25,16 +25,19 @@ function timeCheck()
     if (parseInt(0) <= parseInt(numHour) &&
         parseInt(2) >= parseInt(numHour)) {
         sp.write('t');
-        console.debug(curHour + "화장실 불을 끕니다 ");
+        console.debug(curHour + "화장실 불을 켭니다 ");
+        console.debug(" 새벽 작업은 건강을 해치지 않게 하세요. ");
     }
     else if (parseInt(7) <= parseInt(numHour) &&
         parseInt(10) >= parseInt(numHour)) {
         sp.write('t');
         console.debug(curHour + "화장실 불을 켭니다 ");
+        console.debug(" 아침입니다.  ");
     } else if (parseInt(17) <= parseInt(numHour) &&
         parseInt(23) >= parseInt(numHour)) {
         sp.write('t');
         console.debug(curHour + "화장실 불을 켭니다 ");
+        console.debug(" 퇴근 후 저녁입니다.   ");
     } else {
         sp.write('f');
         console.debug(curHour + "화장실 불을 끕니다 ");
