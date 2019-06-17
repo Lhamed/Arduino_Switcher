@@ -1,4 +1,4 @@
-var SerialPort = requir('serialport'),
+var SerialPort = require('serialport'),
     portName = 'dev/cu.usbmodem14101',
     sp = new SerialPort(portName),
     sensorVal = 0;
