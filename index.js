@@ -1,5 +1,5 @@
 var SerialPort = require('serialport'),
-    portName = 'dev/cu.usbmodem14101',
+    portName = '/dev/cu.usbmodem14101',
     sp = new SerialPort(portName),
     sensorVal = 0;
 var moment = require('moment');
