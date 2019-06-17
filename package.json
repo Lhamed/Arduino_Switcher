@@ -1,0 +1,24 @@
+{
+  "name": "arduino_switcher",
+  "version": "1.0.0",
+  "description": "Arduino_Switcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lhamed/Arduino_Switcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lhamed/Arduino_Switcher/issues"
+  },
+  "homepage": "https://github.com/Lhamed/Arduino_Switcher#readme",
+  "dependencies": {
+    "cron": "^1.7.1",
+    "moment": "^2.24.0",
+    "serialport": "^7.1.5"
+  }
+}
